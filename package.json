@@ -4,8 +4,8 @@
   "description": "SMap Backend",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main.js",
-    "start:dev": "npx ts-node-dev --respawn --transpile-only src/main.ts",
+    "start": "node dist/main.js",          
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
