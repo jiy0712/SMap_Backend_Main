@@ -12,7 +12,7 @@ async function bootstrap() {
   app.use(
     cors({
       origin: [
-        'http://localhost:3000', // 로컬용 프론트
+        'http://localhost:3000', // 로컬용 프론트
         'http://98.88.33.105',   // 배포용 프론트
       ],
       credentials: true, 

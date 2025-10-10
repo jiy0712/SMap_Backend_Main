@@ -24,6 +24,7 @@
     "typeorm": "^0.3.17"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/node": "^20.5.6",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.0"
