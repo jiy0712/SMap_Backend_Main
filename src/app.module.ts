@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { NewsModule } from './news/news.module';
+import { MailModule } from './mail/mail.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { NewsModule } from './news/news.module';
       logging: true,
     }),
     NewsModule,
+    MailModule,
   ],
   controllers: [AppController],
 })
