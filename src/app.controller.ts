@@ -4,7 +4,7 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   @Get()
   getRoot() {
-    return { message: '배포 하는 중' };
+    return { message: '배포 정상 성공' };
   }
 
   @Get('healthz')
