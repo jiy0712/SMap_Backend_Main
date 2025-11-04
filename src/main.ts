@@ -14,6 +14,7 @@ async function bootstrap() {
       origin: [
         'http://localhost:3000', // 로컬 프론트
         'http://98.88.33.105',   // 배포 프론트
+        'https://port-0-smap-backend-main-mhkpzrkrde061e33.sel3.cloudtype.app',
       ],
       credentials: true,
     }),
