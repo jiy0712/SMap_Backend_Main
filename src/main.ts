@@ -21,8 +21,8 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
 
-  await app.listen(3000);
-  console.log(`http://localhost:3000`);
+  await app.listen(process.env.PORT || 3000);
+  console.log(`배포 :  ${process.env.PORT || 3000}`);
 }
 
 bootstrap();
