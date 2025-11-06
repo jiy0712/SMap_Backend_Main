@@ -5,16 +5,16 @@ export class News {
   @PrimaryGeneratedColumn({ name: 'num' })
   num!: number;
 
-  @Column({ name: 'crimeType', type: 'varchar', length: 100 })
+  @Column({ name: 'crimetype', type: 'varchar', length: 100 })
   crimeType!: string;
 
   @Column({ name: 'location', type: 'text', nullable: true })
   location?: string;
 
-  @Column({ name: 'crimeDay', type: 'date', nullable: true })
+  @Column({ name: 'crimeday', type: 'date', nullable: true })
   crimeDay?: Date;
 
-  @Column({ name: 'newsLink', type: 'text', nullable: true })
+  @Column({ name: 'newslink', type: 'text', nullable: true })
   newsLink?: string;
 
   @Column({ name: 'title', type: 'text', nullable: true })
