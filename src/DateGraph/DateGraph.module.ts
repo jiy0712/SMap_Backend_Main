@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { DateGraph } from './DateGraph.entity';
-import { DateGraphService } from './DateGraph.service';
-import { DateGraphController } from './DateGraph.controller';
+import { DateGraph } from './dateGraph.entity';
+import { DateGraphService } from './dateGraph.service';
+import { DateGraphController } from './dateGraph.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([DateGraph])],

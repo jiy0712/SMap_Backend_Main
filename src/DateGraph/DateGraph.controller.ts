@@ -1,6 +1,6 @@
 import { Controller, Get, Query } from '@nestjs/common';
-import { DateGraphService } from './DateGraph.service';
-import { DateGraph } from './DateGraph.entity';
+import { DateGraphService } from './dateGraph.service';
+import { DateGraph } from './dateGraph.entity';
 
 @Controller('dateGraph')
 export class DateGraphController {

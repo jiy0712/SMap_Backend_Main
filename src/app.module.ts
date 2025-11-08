@@ -4,9 +4,9 @@ import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { NewsModule } from './news/news.module';
 import { MailModule } from './mail/mail.module';
-import { AreaGraphModule } from './AreaGraph/AreaGraph.module';
-import { TimeGraphModule } from './TimeGraph/TimeGraph.module';
-import { DateGraphModule } from './DateGraph/DateGraph.module';
+import { AreaGraphModule } from './areaGraph/areaGraph.module';
+import { TimeGraphModule } from './timeGraph/timeGraph.module';
+import { DateGraphModule } from './dateGraph/dateGraph.module';
 import { DataMailModule } from './dataMail/dataMail.module';
 
 @Module({

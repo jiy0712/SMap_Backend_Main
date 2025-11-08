@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { TimeGraph } from './TimeGraph.entity';
+import { TimeGraph } from './timeGraph.entity';
 
 @Injectable()
 export class TimeGraphService {

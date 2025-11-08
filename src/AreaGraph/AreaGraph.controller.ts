@@ -1,6 +1,6 @@
 import { Controller, Get, Query } from '@nestjs/common';
-import { AreaGraphService } from './AreaGraph.service';
-import { AreaGraph } from './AreaGraph.entity';
+import { AreaGraphService } from './areaGraph.service';
+import { AreaGraph } from './areaGraph.entity';
 
 @Controller('areaGraph')
 export class AreaGraphController {

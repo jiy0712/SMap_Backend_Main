@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { TimeGraph } from './TimeGraph.entity';
-import { TimeGraphService } from './TimeGraph.service';
-import { TimeGraphController } from './TimeGraph.controller';
+import { TimeGraph } from './timeGraph.entity';
+import { TimeGraphService } from './timeGraph.service';
+import { TimeGraphController } from './timeGraph.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([TimeGraph])],

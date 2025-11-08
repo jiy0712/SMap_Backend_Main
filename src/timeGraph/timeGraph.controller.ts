@@ -1,6 +1,6 @@
 import { Controller, Get, Query } from '@nestjs/common';
-import { TimeGraphService } from './TimeGraph.service';
-import { TimeGraph } from './TimeGraph.entity';
+import { TimeGraphService } from './timeGraph.service';
+import { TimeGraph } from './timeGraph.entity';
 
 @Controller('timeGraph')
 export class TimeGraphController {
