@@ -4,6 +4,9 @@ import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { NewsModule } from './news/news.module';
 import { MailModule } from './mail/mail.module';
+import { AreaGraphModule } from './AreaGraph/AreaGraph.module';
+import { TimeGraphModule } from './TimeGraph/TimeGraph.module';
+import { DateGraphModule } from './DateGraph/DateGraph.module';
 
 @Module({
   imports: [
@@ -17,6 +20,9 @@ import { MailModule } from './mail/mail.module';
     }),
     NewsModule,
     MailModule,
+    AreaGraphModule,
+    TimeGraphModule,
+    DateGraphModule,
   ],
   controllers: [AppController],
 })
