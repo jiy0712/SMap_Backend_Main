@@ -8,6 +8,7 @@ import { AreaGraphModule } from './areaGraph/areaGraph.module';
 import { TimeGraphModule } from './timeGraph/timeGraph.module';
 import { DateGraphModule } from './dateGraph/dateGraph.module';
 import { DataMailModule } from './dataMail/dataMail.module';
+import { ErrorMailModule } from './errorMail/errorMail.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { DataMailModule } from './dataMail/dataMail.module';
     TimeGraphModule,
     DateGraphModule,
     DataMailModule,
+    ErrorMailModule,
   ],
   controllers: [AppController],
 })
