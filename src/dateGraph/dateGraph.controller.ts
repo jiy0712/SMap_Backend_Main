@@ -16,6 +16,8 @@ export class DateGraphController {
     @Query('crimetype') crimetype?: string,
     @Query('date') date?: string,
   ): Promise<DateGraph[]> {
-    return this.dateGraphService.findByCondition(crimetype, date);
+    const decodedType = crimetype ? decodeURIComponent(crimetype) : undefined;
+    const decodedDate = date ? decodeURIComponent(date) : undefined;
+    return this.dateGraphService.findByCondition(decodedType, decodedDate);
   }
 }
