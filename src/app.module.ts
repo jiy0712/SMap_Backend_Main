@@ -17,7 +17,7 @@ import { ErrorMailModule } from './errorMail/errorMail.module';
       type: 'postgres',
       url: process.env.DATABASE_URL,
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true,
+      synchronize: false,
       logging: true,
     }),
     NewsModule,
