@@ -25,7 +25,7 @@ export class NewsService {
 
     return this.newsRepository
       .createQueryBuilder('news')
-      .where('news.crimetype IN (:...types)', { types: typesArray })
+      .where('news.crimetype in (:...types)', { types: typesArray })
       .getMany();
   }
 }

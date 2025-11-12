@@ -18,6 +18,7 @@ export class MailService {
     });
   }
 
+  //테스트 메일 (구메일버전, 현재 사용하지 않음)
     async sendSuccessMail(userEmail: string) {
     const mailOptions = {
         from: `"SMap 관리자" <${process.env.MAIL_USER}>`,

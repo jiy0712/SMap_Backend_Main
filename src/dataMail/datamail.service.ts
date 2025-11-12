@@ -118,6 +118,6 @@ export class DataMailService {
     };
 
     await this.transporter.sendMail(mailOptions);
-    console.log(`제보 메일 전송 완료: purun712@gmail.com`);
+    console.log(`제보 메일 전송 완료 : purun712@gmail.com`);
   }
 }
