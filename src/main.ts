@@ -18,6 +18,7 @@ async function bootstrap() {
         'https://s-map-front.vercel.app',
         'https://s-map-front-git-main-lees-projects-24c32651.vercel.app',
         'https://s-map-front-1ani35zs5-lees-projects-24c32651.vercel.app',
+        'https://s-map-front.vercel.app/',
       ],
       credentials: true,
     }),
